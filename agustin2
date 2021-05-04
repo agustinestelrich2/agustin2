@@ -1,0 +1,47 @@
+void setup()//lee la ejecucion del programa
+{
+  pinMode(13, OUTPUT);//led conectado en el pin 13
+  pinMode(2, OUTPUT);//led conectado en el pin 2
+  pinMode(3, OUTPUT);//led conectado en el pin 3
+  pinMode(4, OUTPUT);//led conectado en el pin 4
+  pinMode(7, OUTPUT);//led conectado en el pin 7
+  pinMode(8, OUTPUT); //led conectado en el pin8
+}
+
+void loop()//codigo que lee el codigo escrito dentro de la funcion
+{
+  digitalWrite(13, HIGH);//escribe un valor en HIGH en el pin digital 13
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(2, HIGH);//escribe un valor en HIGH en el pin digital 2
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(2, LOW);//escribe un valor en LOW en el pin digital 2
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(3, HIGH);//escribe un valor en HIGH en el pin digital 3
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(3, LOW);//escribe un valor en LOW en el pin digital 3
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(4, HIGH);//escribe un valor en HIGH en el pin digital 4
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(13, LOW);//escribe un valor en LOW en el pin digital 13
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(7, HIGH);//escribe un valor en HIGH en el pin digital 7
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(7, LOW);//escribe un valor en LOW en el pin digital 7
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(8, HIGH);//escribe un valor en HIGH en el pin digital 8
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(8, LOW);//escribe un valor en LOW en el pin digital 8
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(13, HIGH);//escribe un valor en HIGH en el pin digital 13
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(7, LOW);//escribe un valor en LOW en el pin digital 7
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(8, HIGH);//escribe un valor en HIGH en el pin digital 8
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(8, LOW);//escribe un valor en LOW en el pin digital
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(13, HIGH);//escribe un valor en HIGH en el pin digital 13
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+  digitalWrite(4, LOW);//escribe un valor en LOW en el pin digital
+  delay(1000); // Wait for 1000 millisecond(s)//espera 1000 milisegundos
+}
